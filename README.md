@@ -27,7 +27,6 @@ Ce dépôt contient un **dashboard interactif** permettant d’explorer, d’ana
 4. **Lancer le dashboard**
    ```bash   
    python main.py
-<br> 
 
 
 ### Data
@@ -52,4 +51,15 @@ Ce dépôt contient un **dashboard interactif** permettant d’explorer, d’ana
   - `Technique` : matériaux ou procédés utilisés
   - `Propriétaire` : musée ou institution détentrice
   - `Description` : résumé de l’œuvre ou de son étude
+
+### Developper guide
+
+### Rapport d'analyse
+
+### Copyright
+
+Je confirme que l’ensemble du code présent dans ce dépôt a été produit par mes soins/nos soins, hormis les segments clairement indiqués comme provenant d’autres sources.
+
+Tout code non listé comme emprunté est considéré comme original et développé par l’auteur ou les auteurs du projet.
+L’omission de déclarer un emprunt constituera un acte de plagiat.
 
