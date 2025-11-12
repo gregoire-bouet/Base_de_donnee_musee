@@ -27,7 +27,7 @@ Ce dépôt contient un **dashboard interactif** permettant d’explorer, d’ana
 4. **Lancer le dashboard**
    ```bash   
    python main.py
-
+<br>
 ### Data
 
 #### Source des données
