@@ -1,16 +1,25 @@
-# TBA
+# Dashboard d'Analyse — [Nom du projet]
 
-Ce repo contient la première version (minimale) du jeu d’aventure TBA.
+Ce dépôt contient un **dashboard interactif** permettant d’explorer, d’analyser et de visualiser les données relatives à [thème ou domaine du projet].
 
-Les lieux sont au nombre de 6. Il n'y a pas encore d’objets ni de personnages autres que le joueur et très peu d’interactions. Cette première version sert de base à ce qui va suivre, et sera améliorée au fur et à mesure.
+---
 
+## User Guide
 
-## Structuration
+### Installation
 
-Il y a pour le moment 5 modules contenant chacun une classe.
+1. **Cloner le dépôt**
+   ```bash
+   git clone https://github.com/ton-utilisateur/ton-projet.git
+   cd ton-projet
 
-- `game.py` / `Game` : description de l'environnement, interface avec le joueur ;
-- `room.py` / `Room` : propriétés génériques d'un lieu  ;
-- `player.py` / `Player` : le joueur ;
-- `command.py` / `Command` : les consignes données par le joueur ;
-- `actions.py` / `Action` : les interactions entre .
+2. Créer un environnement virtuel (optionnel mais recommandé)
+python -m venv .venv
+source .venv/bin/activate  # sous macOS/Linux
+.venv\Scripts\activate     # sous Windows
+
+3. Installer les dépendances
+pip install -r requirements.txt
+
+4. Lancer le dashboard
+python app.py
