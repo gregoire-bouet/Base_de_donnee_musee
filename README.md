@@ -20,12 +20,12 @@ Ce dépôt contient un **dashboard interactif** permettant d’explorer, d’ana
    
 python -m venv .venv
 source .venv/bin/activate  # sous macOS/Linux
-.venv\Scripts\activate     # sous Windows
+.venv\Scripts\activate     # sous Windows  
 
 
 3. **Installer les dépendances**
    
-pip install -r requirements.txt
+pip install -r requirements.txt  
 
 
 4. **Lancer le dashboard**
