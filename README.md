@@ -6,29 +6,26 @@ Ce dépôt contient un **dashboard interactif** permettant d’explorer, d’ana
 
 ## User Guide
 
-
 ### Installation
-
 
 1. **Cloner le dépôt**
    ```bash
    git clone https://github.com/ton-utilisateur/ton-projet.git
    cd ton-projet
 
-
 2. **Créer un environnement virtuel** (optionnel mais recommandé)
    
 python -m venv .venv
 source .venv/bin/activate  # sous macOS/Linux
 .venv\Scripts\activate     # sous Windows  
-
+<br>
 
 3. **Installer les dépendances**
    
 pip install -r requirements.txt  
-
+<br>
 
 4. **Lancer le dashboard**
    
 python app.py
-
+<br>
