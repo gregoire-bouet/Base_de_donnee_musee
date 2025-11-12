@@ -27,7 +27,6 @@ Ce dépôt contient un **dashboard interactif** permettant d’explorer, d’ana
 4. **Lancer le dashboard**
    ```bash   
    python main.py
-<br> 
 
 
 ### Data
@@ -53,3 +52,8 @@ Ce dépôt contient un **dashboard interactif** permettant d’explorer, d’ana
   - `Propriétaire` : musée ou institution détentrice
   - `Description` : résumé de l’œuvre ou de son étude
 
+### Developper guide
+
+### Rapport d'analyse
+
+### Copyright
