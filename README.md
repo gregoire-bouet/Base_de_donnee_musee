@@ -1,6 +1,6 @@
-# Dashboard d'Analyse — [Nom du projet]
+# Dashboard d'Analyse — Musées français
 
-Ce dépôt contient un **dashboard interactif** permettant d’explorer, d’analyser et de visualiser les données relatives à [thème ou domaine du projet].
+Ce dépôt contient un **dashboard interactif** permettant d’explorer, d’analyser et de visualiser les données relatives aux oeuvres des musées français et leur origine.
 
 ---
 
