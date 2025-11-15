@@ -164,14 +164,14 @@ def get_main_figure(pathname, year_range):
         max_year = int(df_domaine["date_de_l_oeuvre_ou_de_l_artiste"].max() + 100)
         bins = list(range(min_year, max_year, 100))
         labels = [f"{b}-{b+100}" for b in bins[:-1]]
-        df_domaine["decennie"] = pd.cut(df_domaine["date_de_l_oeuvre_ou_de_l_artiste"], bins=bins, labels=labels, right=False)
-        counts_by_decade = df_domaine["decennie"].value_counts().sort_index().reset_index()
-        counts_by_decade.columns = ["decennie", "nombre_d_oeuvres"]
+        df_domaine["siecle"] = pd.cut(df_domaine["date_de_l_oeuvre_ou_de_l_artiste"], bins=bins, labels=labels, right=False)
+        counts_by_decade = df_domaine["siecle"].value_counts().sort_index().reset_index()
+        counts_by_decade.columns = ["siecle", "nombre_d_oeuvres"]
         fig = px.bar(
             counts_by_decade,
-            x="decennie",
+            x="siecle",
             y="nombre_d_oeuvres",
-            color="decennie",
+            color="siecle",
             color_discrete_sequence=px.colors.qualitative.Pastel,
             title=f"Nombre d’œuvres par siècle pour le domaine : {domaine}"
         )
